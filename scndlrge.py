@@ -1,6 +1,6 @@
 def find_scnd_largest(lst):
     if len(lst) < 2:
-        return "List must contain at least two elements"
+        return "List contain at least two elements"
     first = second = float('-inf')
     for number in lst:
         if number > first:
